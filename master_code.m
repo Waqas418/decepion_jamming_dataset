@@ -11,7 +11,7 @@ total_duration = 100e-6;       % Total duration to visualize
 fs = 55e6;                    
 
 % Number of samples for each type of signal
-num_samples = 3;
+num_samples = 1500;
 
 % LFM
 for sample = 1:num_samples
