@@ -38,8 +38,8 @@ for sample = 1:num_samples
     title(sprintf('LFM Signal - Sample %d - Random Noise Level %.2f', sample, noise_amplitude));
     set(gca, 'YDir','reverse');
 
-    % Save the image
-    saveas(gcf, ['C:\Users\waq\Desktop\Saved Images\New folder\', sprintf('LFM_%d.png', sample)]);
+    % Save the image enter the path to save samples  for example(C:\Users\waq\Desktop\Saved Images\New folder\)
+    saveas(gcf, ['your path to save the samples ', sprintf('LFM_%d.png', sample)]);
 end
 
 
